@@ -21,7 +21,7 @@ export const navbar = {
     {
       id: 3,
       label: 'NFT',
-      path: '#content',
+      path: '#pricing',
       offset: '81',
     },
     {
