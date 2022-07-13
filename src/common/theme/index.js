@@ -1,7 +1,6 @@
-import { appTheme } from './app';
-import { agencyTheme } from './agency';
+import { theme } from './appModern';
+
 
 export const theme = {
-  appTheme,
-  agencyTheme,
+  Theme,
 };
