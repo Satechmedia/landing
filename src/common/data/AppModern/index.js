@@ -180,10 +180,10 @@ import codingImage from 'common/assets/image/appModern/code.png';
 
 export const designAndBuilt = {
   image: codingImage,
-  slogan: 'NFT MINTING SECTION',
+  slogan: 'NFT SECTION AND BENEFITS',
   title: 'Introducing Seemeo NFT',
   description:
-    'Seemeo Genesis is a collection of 2222 NFT on Ethereum blockchain mintable by early supporters of the ecosystem. As a Seemeo Genesis holder, you will get access to an evolving services and features that keep you on top priority.',
+    'Seemeo Genesis is a collection of 2222 NFT on Ethereum blockchain mintable by early supporters of the ecosystem. As a Seemeo Genesis holder, you will get access to an evolving services and features that keep you on top priority. 1. Seemeo genesis holders are guaranteed a spot to free mint in the upcoming NFT drops. 2. Holders get a chance to participate in our lottery. 3. Holders will be given right to stake their NFTs to qualify to be our ambassadors. Ambassadors are our VIPs and Seemeo project’s flag bearers. 4. You will get access to an evolving services, features and exclusive events. 5. Over time, card holder benefits will expand to real-world items. 6. Holders will get access to partners’ physical locations including hotels, restaurants, clinics, supermarkets and more.',
 };
 
 /* ------------------------------------ */
@@ -192,7 +192,11 @@ export const designAndBuilt = {
 import slide1 from 'common/assets/image/appModern/page1.png';
 import slide2 from 'common/assets/image/appModern/page2.png';
 import slide3 from 'common/assets/image/appModern/page3.png';
-
+import slide4 from 'common/assets/image/appModern/page4.png';
+import slide5 from 'common/assets/image/appModern/page5.png';
+import slide6 from 'common/assets/image/appModern/page6.png';
+import slide7 from 'common/assets/image/appModern/page7.png';
+import slide8 from 'common/assets/image/appModern/page8.png';
 export const productData = {
   slogan: 'SEEMEO APP SHOWCASE',
   title: 'Connecting people and places locally',
@@ -218,20 +222,58 @@ export const productData = {
 
     {
       id: 4,
-      thumb_url: slide1,
+      thumb_url: slide4,
       link: '#1',
       title: 'slide 4',
     },
 
     {
       id: 5,
-      thumb_url: slide3,
+      thumb_url: slide5,
       link: '#1',
       title: 'slide 5',
     },
     {
       id: 6,
+      thumb_url: slide6,
+      link: '#1',
+      title: 'slide 6',
+    },
+    {
+      id: 7,
+      thumb_url: slide7,
+      link: '#1',
+      title: 'slide 7',
+    },
+    {
+      id: 8,
+      thumb_url: slide8,
+      link: '#1',
+      title: 'slide 8',
+    },
+    {
+      id: 9,
+      thumb_url: slide1,
+      link: '#1',
+      title: 'slide 1',
+    },
+
+    {
+      id: 10,
       thumb_url: slide2,
+      link: '#1',
+      title: 'slide 2',
+    },
+
+    {
+      id: 11,
+      thumb_url: slide3,
+      link: '#1',
+      title: 'slide 3',
+    },
+    {
+      id: 12,
+      thumb_url: slide4,
       link: '#1',
       title: 'slide 6',
     },
@@ -247,33 +289,33 @@ export const pricing = {
   monthly: [
     {
       id: 1,
-      title: 'Business Class',
-      description: 'For Small teams or office',
+      title: 'Q2 2022',
+      description: 'The beginning',
       suggested: false,
       price: 0,
       features: [
         {
           id: 1,
-          text: 'Drag & Drop Builder',
+          text: 'Project planning & preparation',
         },
         {
           id: 2,
-          text: "1,000's of Templates",
+          text: "Team formation",
         },
         {
           id: 3,
-          text: 'Blog Support Tools',
+          text: 'App and Web UI/UX design',
         },
         {
           id: 4,
-          text: 'eCommerce Store ',
+          text: 'Strategic Meetings',
         },
       ],
     },
     {
       id: 2,
-      title: 'Pro Master',
-      description: 'For Best opportunities',
+      title: 'Q3 2022',
+      description: 'Setting Out',
       suggested: true,
       price: 99,
       trail: 14,
@@ -281,19 +323,19 @@ export const pricing = {
       features: [
         {
           id: 1,
-          text: 'Drag & Drop Builder',
+          text: 'Website Development',
         },
         {
           id: 2,
-          text: "1,000's of Templates",
+          text: "Community Building",
         },
         {
           id: 3,
-          text: 'Blog Support Tools',
+          text: 'Partnership',
         },
         {
           id: 4,
-          text: 'eCommerce Store ',
+          text: 'Genesis NFT Mint',
         },
       ],
     },
@@ -301,8 +343,8 @@ export const pricing = {
   annualy: [
     {
       id: 1,
-      title: 'Pro Master',
-      description: 'For Small teams or office',
+      title: 'Q4 2022',
+      description: 'Product Launch',
       suggested: true,
       price: 999,
       trail: 14,
@@ -310,49 +352,53 @@ export const pricing = {
       features: [
         {
           id: 1,
-          text: 'Drag & Drop Builder',
+          text: 'Mobile App Development',
         },
         {
           id: 2,
-          text: "1,000's of Templates",
+          text: "First Contest & Lottery",
         },
         {
           id: 3,
-          text: 'Blog Support Tools',
+          text: 'Branded physical item launch',
         },
         {
           id: 4,
-          text: 'eCommerce Store ',
-        },
-      ],
-    },
-    {
-      id: 2,
-      title: 'Enterprise',
-      description: 'For Best opportunities',
-      suggested: false,
-      price: 1299,
-      trail: 30,
-      trailLink: '#',
-      features: [
-        {
-          id: 1,
-          text: 'Drag & Drop Builder',
-        },
-        {
-          id: 2,
-          text: "1,000's of Templates",
-        },
-        {
-          id: 3,
-          text: 'Blog Support Tools',
+          text: 'Strategic Partnership',
         },
         {
           id: 4,
-          text: 'eCommerce Store ',
+          text: 'More roadmap we be announced...',
         },
       ],
     },
+    // {
+    //   id: 2,
+    //   title: 'Enterprise',
+    //   description: 'For Best opportunities',
+    //   suggested: false,
+    //   price: 1299,
+    //   trail: 30,
+    //   trailLink: '#',
+    //   features: [
+    //     {
+    //       id: 1,
+    //       text: 'Drag & Drop Builder',
+    //     },
+    //     {
+    //       id: 2,
+    //       text: "1,000's of Templates",
+    //     },
+    //     {
+    //       id: 3,
+    //       text: 'Blog Support Tools',
+    //     },
+    //     {
+    //       id: 4,
+    //       text: 'eCommerce Store ',
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -368,45 +414,30 @@ import member6 from 'common/assets/image/appModern/6.png';
 import member7 from 'common/assets/image/appModern/7.png';
 
 export const teamportfolio = {
-  title: 'Meet our awesome team members, work behind the sense',
+  title: 'Meet our awesome team members.',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features that Lorem ipsum dolor sit amet consectetur.',
+    'We are the initiators of Seemeo Genesis. The team consists of few experienced and passionate supporters of eprincy’s work and who want to join forces to ensure that we deliver a great project. We are also expecting more people to join us as work get more intense to build a stronger work force.',
 
   teammember: [
     {
       id: 1,
       img: member1,
-      text: 'Berlin Corleone',
+      text: 'ePrincy (Founder)',
     },
     {
       id: 2,
       img: member2,
-      text: 'Jona White',
+      text: 'Thinkmedia (Moderator)',
     },
     {
       id: 3,
       img: member3,
-      text: 'Michael Price',
+      text: 'NuvieGhaga (Designer/Artist)',
     },
     {
       id: 4,
       img: member4,
-      text: 'Gullyboy Rana',
-    },
-    {
-      id: 5,
-      img: member5,
-      text: 'Miss Clair',
-    },
-    {
-      id: 6,
-      img: member6,
-      text: 'Bucky Ali',
-    },
-    {
-      id: 7,
-      img: member7,
-      text: 'Arthus Doe',
+      text: 'Web3King (Developer)',
     },
   ],
 };
@@ -465,51 +496,51 @@ export const footer = {
     {
       id: 1,
       icon: chat,
-      title: 'Join the Community',
+      title: 'Join the Twitter Community',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+        '@Seemeo_app.',
     },
     {
       id: 2,
       icon: group,
-      title: 'Join in Chat Community',
+      title: 'Subcribe to the Youtube Channel',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+        'Seemeo',
     },
     {
       id: 3,
       icon: github,
-      title: 'Github Access',
+      title: 'Join the Discord Server',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+        '@Seemeo.',
     },
   ],
   logo: footerLogo,
   menu: [
-    {
-      id: 1,
-      text: 'Home',
-      link: '#',
-    },
-    {
-      id: 2,
-      text: 'Adversite',
-      link: '#',
-    },
-    {
-      id: 3,
-      text: 'Supports',
-      link: '#',
-    },
-    {
-      id: 4,
-      text: 'Marketing',
-      link: '#',
-    },
-    {
-      id: 5,
-      text: 'Contact',
-      link: '#',
-    },
+    // {
+    //   id: 1,
+    //   text: 'Home',
+    //   link: '#',
+    // },
+    // {
+    //   id: 2,
+    //   text: 'Adversite',
+    //   link: '#',
+    // },
+    // {
+    //   id: 3,
+    //   text: 'Supports',
+    //   link: '#',
+    // },
+    // {
+    //   id: 4,
+    //   text: 'Marketing',
+    //   link: '#',
+    // },
+    // {
+    //   id: 5,
+    //   text: 'Contact',
+    //   link: '#',
+    // },
   ],
 };

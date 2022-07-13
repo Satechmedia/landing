@@ -62,7 +62,6 @@ const AppModern = () => {
             <PricingPolicy />
             <TeamPortfolio />
             <Faq />
-            <Newsletter />
           </ContentWrapper>
           <Footer />
         </AppWrapper>

@@ -50,7 +50,7 @@ const Footer = () => {
               </MenuItem>
             ))}
           </Menu>
-          <CopyrightText>Copyright {year} By RedQ Inc</CopyrightText>
+          <CopyrightText>Copyright {year} By Seemeo</CopyrightText>
         </MenuArea>
         {/* End of footer menu area */}
       </Container>

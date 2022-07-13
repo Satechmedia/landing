@@ -496,27 +496,75 @@ export const faq = {
   faqs: [
     {
       id: 1,
-      question: 'How to contact with riders emergency?',
+      question: 'What is Seemeo Genesis NFT?',
       answer:
-        'Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home. Your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+        'Seemeo Genesis is a collection of 2222 NFT on Ethereum blockchain mintable by early supporters of Seemeo project',
     },
     {
       id: 2,
-      question: 'App installation failed, how to update system information?',
+      question: 'What is the total supply?',
       answer:
-        'Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home. Your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+        'There will be a total supply of 2222.',
     },
     {
       id: 3,
-      question: 'Website reponse taking time, how to improve?',
+      question: 'Who will be allowed to mint?',
       answer:
-        'Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home. Your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+        'There will be 2 minting stages. Guaranteed/whitelisted wallets and public minting.',
     },
     {
       id: 4,
-      question: 'New update fixed all bug and issues',
+      question: 'What is the minting date and what will be the price?',
       answer:
-        'Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home. Your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+        'This summer. Each card will cost 0.2 ETH. Actual minting date will be announced on our social media.',
+    },
+    {
+      id: 5,
+      question: 'What is the maximum minting per wallet?',
+      answer:
+        'Maximum of 3 per wallet.',
+    },
+    {
+      id: 6,
+      question: 'Will there be a gas war?',
+      answer:
+        'We will do our best to ensure that gas fee paid during the minting process is minimal. We have also decided to secure a guaranteed minting spot for many pre-registered wallets to ensure that priority is given to our top supporters. To save yourself the minting rush, you can participate in the pre-registration process when it begins.',
+    },
+    {
+      id: 7,
+      question: 'What are the funds being used for?',
+      answer:
+        'Funds will be channeled into the development of Seemeo application, marketing and project’s operation.',
+    },
+    {
+      id: 8,
+      question: 'Why should I buy this NFT?',
+      answer:
+        ' We believe the value of holding this access card will far outweigh the mint price. We are fully ready to deliver an outstanding utility that will be a very useful tool for everyone. Our commitment is to underpromise and overdeliver.',
+    },
+    {
+      id: 9,
+      question: 'When can I start enjoying the benefit of holding the access card?',
+      answer:
+        'You will be able to enjoy the benefits after we get done with the mint. You can find the benefits and the approximate roll out period in the litepaper..',
+    },
+    {
+      id: 10,
+      question: 'How long is this access card valid?',
+      answer:
+        'Each access card qualifies you for the benefits stated above until we roll out a feature that requires you to burn it which comes with some other benefits. You don’t need to worry, this is the genesis (just the beginning) holders of genesis access card will not need to buy upcoming NFT, they will get a chance to mint for free while the public battle to secure a spot if anyone is available.  Upcoming NFT may require Genesis access card burn to mint. Kindly take note and hold your card while we work to deliver mind blowing utilities.',
+    },
+    {
+      id: 11,
+      question: 'Why are there 4 types of Cards?',
+      answer:
+        'To create uniqueness and more exciting benefits. If you are lucky to mint a Ruby card you should not be too quick to list it for sale. Each card is unique but gold and ruby have the highest ranks so are their benefits.',
+    },
+    {
+      id: 12,
+      question: 'Will there be secondary royalties and how are they going to be used?',
+      answer:
+        'There will be 5% of all secondary sales and the proceeds will be used to create more values for holders, fund marketing and operation..',
     },
   ],
 };

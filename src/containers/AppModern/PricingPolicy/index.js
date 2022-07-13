@@ -62,7 +62,7 @@ const PricingPolicy = () => {
             type="button"
             onClick={() => handlePricingPlan('annualy')}
           >
-            2023
+            2022 Cont'd
           </button>
         </ButtonGroup>
 
