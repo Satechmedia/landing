@@ -21,13 +21,14 @@ import GlobalStyle, {
   ContentWrapper,
 } from 'containers/AppModern/appModern.style';
 import Faq from 'containers/AppClassic/Faq';
+import Benefit from 'containers/AppClassic/Features';
 
 const AppModern = () => {
   return (
     <ThemeProvider theme={theme}>
       <>
         <Head>
-          <title>App Modern | A next js landing page</title>
+          <title>Seemeo | Connecting you to places</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#2563FF" />
           <meta
@@ -59,9 +60,11 @@ const AppModern = () => {
             {/* <Testimonial /> */}
             <ProductSlide />
             <DesignedAndBuilt />
+            <Benefit />
             <PricingPolicy />
             <TeamPortfolio />
             <Faq />
+            <Newsletter />
           </ContentWrapper>
           <Footer />
         </AppWrapper>

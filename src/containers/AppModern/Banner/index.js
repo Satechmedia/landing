@@ -81,9 +81,10 @@ const Banner = () => {
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="Seemeo
-              Your Vicinity 
-              On Your Hands"
+              content="The Best App to
+              Find Anything, Connect 
+              With People and Places
+              In Your Neighbourhood"
             />
           </Fade>
           <Fade up delay={200}>

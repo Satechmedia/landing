@@ -190,56 +190,56 @@ import featureIcon5 from 'common/assets/image/appClassic/featureIcon-5.svg';
 import featureIcon6 from 'common/assets/image/appClassic/featureIcon-6.svg';
 
 export const features = {
-  slogan: 'PRODUCT COMPARISON',
-  title: 'Why you choose our App',
+  slogan: 'SEEMEO GENESIS NFT',
+  title: 'BENEFITS',
   items: [
     {
       id: 1,
       color: '#F55767',
       icon: featureIcon1,
-      title: 'App Development',
+      title: 'FREE MINT',
       description:
-        'Get your proof tests delivered home collect a sample from the news get design.',
+        'Seemeo genesis holders are guaranteed a spot to free mint in the upcoming NFT drops.',
     },
     {
       id: 2,
       color: '#3DABDD',
       icon: featureIcon2,
-      title: '10 Times Award',
+      title: 'LOTTERY',
       description:
-        'Get your proof tests delivered home collect a sample from the news get design.',
+        'Holders get a chance to participate in our lottery.',
     },
     {
       id: 3,
       color: '#D6AB00',
       icon: featureIcon3,
-      title: 'Cloud Storage',
+      title: 'ACCESS',
       description:
-        'Get your proof tests delivered home collect a sample from the news get design.',
+      'You will get access to an evolving services, features and exclusive events.',
     },
     {
       id: 4,
       color: '#40975F',
       icon: featureIcon4,
-      title: 'Customization',
+      title: 'STAKING',
       description:
-        'Get your proof tests delivered home collect a sample from the news get design.',
+      'Holders will be given right to stake their NFTs to qualify to be our ambassadors. Ambassadors are our VIPs and Seemeo project’s flag bearers.', 
     },
     {
       id: 5,
       color: '#5856D6',
       icon: featureIcon5,
-      title: 'UX Planning',
+      title: 'PHYSICAL ',
       description:
-        'Get your proof tests delivered home collect a sample from the news get design.',
+        'Over time, card holder benefits will expand to real-world items.',
     },
     {
       id: 6,
       color: '#E97325',
       icon: featureIcon6,
-      title: 'Customer Support',
+      title: 'ACCESS TO LOCATION',
       description:
-        'Get your proof tests delivered home collect a sample from the news get design.',
+        'Holders will get access to partners’ physical locations including hotels, restaurants, clinics, supermarkets and more.',
     },
   ],
 };
@@ -491,8 +491,8 @@ export const testimonial = {
 // Faq data section
 /* ------------------------------------ */
 export const faq = {
-  slogan: 'FREQUENT QUESTION',
-  title: 'Do you have any question',
+  slogan: 'FAQ',
+  title: 'Do you have any question?',
   faqs: [
     {
       id: 1,

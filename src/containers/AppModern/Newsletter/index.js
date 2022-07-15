@@ -24,7 +24,8 @@ const Newsletter = ({
           <Box {...textArea}>
             <Heading content="Subscribe our newsletter" {...title} />
             <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore"
+              content="Register for the waiting list and receives a
+              premium offer benefits for 3 months and more."
               {...description}
             />
           </Box>
@@ -32,12 +33,12 @@ const Newsletter = ({
             <ContactFormWrapper>
               <Input
                 inputType="email"
-                label="Email address"
+                label="Enter Email Address"
                 iconPosition="right"
                 isMaterial={true}
                 className="email_input"
               />
-              <Button {...buttonStyle} title="Get access" />
+              <Button {...buttonStyle} title="Register" />
             </ContactFormWrapper>
           </Box>
         </Container>

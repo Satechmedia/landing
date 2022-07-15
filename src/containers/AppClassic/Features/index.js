@@ -14,7 +14,7 @@ import SectionWrapper, { FeatureWrapper } from './features.style';
 
 import { features } from 'common/data/AppClassic';
 
-const Features = () => {
+const Benefit = () => {
   const { slogan, title, items } = features;
 
   return (
@@ -31,14 +31,14 @@ const Features = () => {
             <Fade up delay={100 * item.id} key={`feature-key${item.id}`}>
               <FeatureBlock
                 style={{ '--color': `${item.color}` }}
-                icon={
-                  <Fragment>
-                    <Icon className="plus" icon={plus} />
-                    <Icon className="circle" icon={mediaRecordOutline} />
-                    <NextImage src={item.icon} alt={item.title} />
-                    <Icon className="star" icon={starOutline} />
-                  </Fragment>
-                }
+                // icon={
+                //   <Fragment>
+                //     <Icon className="plus" icon={plus} />
+                //     <Icon className="circle" icon={mediaRecordOutline} />
+                //     <NextImage src={item.icon} alt={item.title} />
+                //     <Icon className="star" icon={starOutline} />
+                //   </Fragment>
+                // }
                 iconPosition="left"
                 title={<Heading as="h3" content={item.title} />}
                 description={<Text content={item.description} />}
@@ -51,4 +51,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default Benefit;

@@ -83,7 +83,8 @@ const PricingPolicy = () => {
                   <ul className="feature-list">
                     {item.features.map((item) => (
                       <li key={`${state.active}-feature--key${item.id}`}>
-                        <Icon icon={checkmarkCircled} /> {item.text}
+                        {/* <Icon icon={checkmarkCircled} /> */}
+                         {item.text}
                       </li>
                     ))}
                   </ul>

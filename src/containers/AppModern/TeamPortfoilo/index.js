@@ -55,7 +55,7 @@ const TeamPortfolioSection = () => {
           <div className="content">
             <Heading content={title} />
             <Text content={description} />
-            <Button title="Learn More" />
+            <Button title="linkTree" />
           </div>
         </ContentWrapper>
       </Container>

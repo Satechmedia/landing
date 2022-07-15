@@ -83,6 +83,10 @@ import featureIcon1 from 'common/assets/image/appModern/icon1.svg';
 import featureIcon2 from 'common/assets/image/appModern/icon2.svg';
 import featureIcon3 from 'common/assets/image/appModern/icon3.svg';
 import featureIcon4 from 'common/assets/image/appModern/icon4.svg';
+import featureIcon5 from 'common/assets/image/appModern/icon1.svg';
+import featureIcon6 from 'common/assets/image/appModern/icon2.svg';
+import featureIcon7 from 'common/assets/image/appModern/icon3.svg';
+import featureIcon8 from 'common/assets/image/appModern/icon4.svg';
 
 export const features = {
   slogan: 'KEY FEATURES',
@@ -92,33 +96,68 @@ export const features = {
       id: 1,
       color: '#F55767',
       icon: featureIcon1,
-      title: 'Discovery',
+      title: 'Find nearby people and places',
       description:
-        'Use Seemeo to discover and search for services.',
+      'Finding important places and services within your neighborhood may not be as easy as you think. Many times you find it difficult to find many important services especially when you move to another environment. Seemeo can help you quickly find exactly what you are looking for in your vicinity.',
     },
     {
       id: 2,
       color: '#ff4742',
       icon: featureIcon2,
-      title: 'Honesty',
+      title: 'Review and recommendation',
       description:
-        'We gather recommendations shared in public conversations by real people.',
+      'Because it provides reviews and suggestions to its users, you can learn everything you need to know about a company or location when you first visit it. You will never again be duped into thinking you are getting something you are not because people have actually been there, checked it, and told you what you do get.',
     },
     {
       id: 3,
       color: '#fb5781',
       icon: featureIcon3,
-      title: 'Trust',
+      title: 'As you use it, it learns what you like',
       description:
-        'We create listings for recommended pros inn a specific inndustry, quickly see reviews from different users from one hand interface before making a decision.',
+        'The more you use the app, the more precise its recommendations become. In other words, it assists you in discovering new places to visit depending on spots you already enjoy! This is especially useful when touring a new city, as it can recommend places to visit depending on the ones you like back at home!',
     },
     {
       id: 4,
       color: '#f18e47',
       icon: featureIcon4,
-      title: 'Fit',
+      title: 'Connecting With New People',
       description:
-        'All the search results that pop up are sorted by best fit for you.',
+        'When you download the app to your phone or tablet, anywhere you go, you can easily search for people you will like to meet for business or other important purposes.',
+    },
+    {
+      id: 5,
+      color: '#F55767',
+      icon: featureIcon1,
+      title: 'Schedule your time',
+      description:
+        'If you are unsure where you want to purchase products, Fix cars, eat, or explore, use it to find those nearby places. Tap "Search" and use different categories or a keyword to find exactly what you are looking for. If you find a place but you are not ready to visit yet, book or schedule your visiting time. You can also add it to your "To Do" list, so you remember to go there later.',
+    },
+    {
+      id: 2,
+      color: '#ff4742',
+      icon: featureIcon2,
+      title: 'Feedback',
+      description:
+        `After visiting a place, leave a comment about it. Your neighbors and other people visiting can read it to decide whether going there is worthwhile. Similarly, you can read other people's reviews to ascertain whether unfamiliar locations are worth your time.`,
+    },
+    {
+      id: 3,
+      color: '#fb5781',
+      icon: featureIcon3,
+      title: 'Location-planning',
+      description:
+        `Users can search or browse nearby shops, diners, and other businesses using location planning or social mapping. Users' venues are assigned profiles, and they can rate them, share their thoughts, and upload photos.
+
+        These networks connect users by using the location of their mobile phones and may also provide clear directions to and from the facility by connecting to a GPS service.
+        `,
+    },
+    {
+      id: 4,
+      color: '#f18e47',
+      icon: featureIcon4,
+      title: 'Statistics',
+      description:
+        'There are several statistics, such as likes, recommendations, numbered rating and community tips from feedback section, and a list of keywords that describe the enterprise, all of which are meant to help you get a sense of the people or places.',
     },
   ],
 };
@@ -149,26 +188,32 @@ export const appSlider = {
       title: 'App Slide 1',
     },
   ],
-  title: 'Voice Search Features',
+  title: 'Why should you choose Seemeo?',
   features: [
     {
       id: 1,
       icon: appIcon,
-      title: 'ONE',
-      description: 'Automated speech recognition when you issue the commmand.',
+      title: 'Discovery',
+      description: 'Use Seemeo to discover and search for services, write or read reviews about different people and places or businesses.',
     },
     {
       id: 2,
       icon: appIcon,
-      title: 'TWO',
+      title: 'Honesty',
       description:
-        'Determines the purpose and entity based on the content in the command.',
+        'We gather recommendations shared in public conversations by real people. No need to worry about fake or bogus review posts. They are all genuine.',
     },
     {
       id: 3,
       icon: appIcon,
-      title: 'THREE',
-      description: 'Voice search intergrates technology that uses current text based search Capacity.',
+      title: 'Trust',
+      description: 'We create listings for recommended pros in a specific industry. Quickly see reviews from different users from one handy interface before making a decision.',
+    },
+    {
+      id: 4,
+      icon: appIcon,
+      title: 'Fit',
+      description: 'All the search results that pop up are sorted by best fit for you!',
     },
   ],
 };
@@ -180,10 +225,10 @@ import codingImage from 'common/assets/image/appModern/code.png';
 
 export const designAndBuilt = {
   image: codingImage,
-  slogan: 'NFT SECTION AND BENEFITS',
-  title: 'Introducing Seemeo NFT',
+  slogan: 'SEEMEO GENESIS NFT',
+  title: 'Introduction to Seemeo Genesis.',
   description:
-    'Seemeo Genesis is a collection of 2222 NFT on Ethereum blockchain mintable by early supporters of the ecosystem. As a Seemeo Genesis holder, you will get access to an evolving services and features that keep you on top priority. 1. Seemeo genesis holders are guaranteed a spot to free mint in the upcoming NFT drops. 2. Holders get a chance to participate in our lottery. 3. Holders will be given right to stake their NFTs to qualify to be our ambassadors. Ambassadors are our VIPs and Seemeo project’s flag bearers. 4. You will get access to an evolving services, features and exclusive events. 5. Over time, card holder benefits will expand to real-world items. 6. Holders will get access to partners’ physical locations including hotels, restaurants, clinics, supermarkets and more.',
+    'Seemeo Genesis is a collection of 2222 NFT on Ethereum blockchain mintable by early supporters of the ecosystem. As a Seemeo Genesis holder, you will get access to an evolving services and features that keep you on top priority. This also gives you the opportunity to be a shareholder in the project on a long run.',
 };
 
 /* ------------------------------------ */
@@ -432,12 +477,12 @@ export const teamportfolio = {
     {
       id: 3,
       img: member3,
-      text: 'NuvieGhaga (Designer/Artist)',
+      text: 'Web3King (Developer)', 
     },
     {
       id: 4,
       img: member4,
-      text: 'Web3King (Developer)',
+      text: 'NuvieGhaga (Designer/Artist)',
     },
   ],
 };
