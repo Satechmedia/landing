@@ -21,7 +21,7 @@ export const navbar = {
     {
       id: 3,
       label: 'NFT',
-      path: '#pricing',
+      path: '#content',
       offset: '81',
     },
     {
@@ -531,8 +531,8 @@ export const testimonial = {
 /* ------------------------------------ */
 // Footer data section
 /* ------------------------------------ */
-import chat from 'common/assets/image/appModern/chat.svg';
-import group from 'common/assets/image/appModern/group.svg';
+import chat from 'common/assets/image/appModern/chat.png';
+import group from 'common/assets/image/appModern/group.png';
 import github from 'common/assets/image/appModern/github.svg';
 import footerLogo from 'common/assets/image/appModern/logoWhite.png';
 
@@ -541,23 +541,10 @@ export const footer = {
     {
       id: 1,
       icon: chat,
-      title: 'Join the Twitter Community',
-      description:
-        '@Seemeo_app.',
     },
     {
       id: 2,
       icon: group,
-      title: 'Subcribe to the Youtube Channel',
-      description:
-        'Seemeo',
-    },
-    {
-      id: 3,
-      icon: github,
-      title: 'Join the Discord Server',
-      description:
-        '@Seemeo.',
     },
   ],
   logo: footerLogo,

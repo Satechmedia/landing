@@ -15,7 +15,7 @@ import DashboardObject1 from 'common/assets/image/appModern/dashboard.png';
 const DashboardSection = ({ row, col, title, btnStyle, description }) => {
   const ButtonGroup = () => (
     <Fragment>
-      <Button title="JOIN NFT WHITELIST" {...btnStyle} />
+      <Button title="LITEPAPER " {...btnStyle} />
     </Fragment>
   );
   return (

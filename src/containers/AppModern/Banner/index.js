@@ -73,18 +73,15 @@ const Banner = () => {
       <Container>
         <BannerContent>
           <Fade up>
-            <RatingInfo>
+            {/* <RatingInfo>
               <Rating rating={4} />
               4.9 of 5
-            </RatingInfo>
+            </RatingInfo> */}
           </Fade>
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="The Best App to
-              Find Anything, Connect 
-              With People and Places
-              In Your Neighbourhood"
+              content="Connecting people and places locally"
             />
           </Fade>
           <Fade up delay={200}>
