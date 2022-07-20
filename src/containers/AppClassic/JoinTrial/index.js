@@ -27,8 +27,8 @@ const JoinTrail = () => {
         </Fade>
         <Fade up delay={300}>
           <ButtonGroup>
-            <Button title="Join the Whitelist Now!!!" />
-            <Button title="Litepaper" variant="textButton" />
+          <a href='https://forms.gle/ULcdYiBy44J9oy7MA' target='_blank'> <Button title="Join the Whitelist Now!!!" /> </a>
+          <a href='https://drive.google.com/file/d/1G-KITpXOSUyiM93U_LNFuJWMlhNPZEOP/view?usp=sharing' target='_blank'>  <Button title="Litepaper" variant="textButton" /> </a>
           </ButtonGroup>
         </Fade>
       </ContentWrapper>

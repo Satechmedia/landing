@@ -55,7 +55,7 @@ const TeamPortfolioSection = () => {
           <div className="content">
             <Heading content={title} />
             <Text content={description} />
-            <Button title="linkTree" />
+           <a href='https://linktr.ee/seemeo' target='_blank'> <Button title="linkTree" /> </a>
           </div>
         </ContentWrapper>
       </Container>

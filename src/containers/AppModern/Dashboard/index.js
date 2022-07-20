@@ -15,7 +15,7 @@ import DashboardObject1 from 'common/assets/image/appModern/dashboard.png';
 const DashboardSection = ({ row, col, title, btnStyle, description }) => {
   const ButtonGroup = () => (
     <Fragment>
-      <Button title="LITEPAPER " {...btnStyle} />
+      <a href='https://drive.google.com/file/d/1G-KITpXOSUyiM93U_LNFuJWMlhNPZEOP/view?usp=sharing' target='_blank'>  <Button title="LITEPAPER " {...btnStyle} /></a>
     </Fragment>
   );
   return (

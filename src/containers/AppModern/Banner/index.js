@@ -95,7 +95,7 @@ const Banner = () => {
           </Fade>
           <Fade up delay={300}>
             <ButtonGroup>
-             <a href='#' ><Button className="primary" title="Litepaper" /> </a>
+            <a href='https://drive.google.com/file/d/1G-KITpXOSUyiM93U_LNFuJWMlhNPZEOP/view?usp=sharing' target='_blank'>  <Button className="primary" title="Litepaper" /> </a>
               <Button
                 className="text"
                 variant="textButton"
