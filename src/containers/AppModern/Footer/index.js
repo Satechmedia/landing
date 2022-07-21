@@ -37,9 +37,9 @@ const Footer = () => {
         <MenuArea>
           <Logo
             className="logo"
-            href="/appclassic"
+            href="/"
             logoSrc={logo}
-            title="App Classic"
+            title="Seemeo App"
           />
           <Menu>
             {menu.map((item) => (

@@ -413,7 +413,7 @@ export const pricing = {
         },
         {
           id: 4,
-          text: 'More roadmap we be announced...',
+          text: 'More roadmap will be announced...',
         },
       ],
     },

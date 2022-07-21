@@ -22,9 +22,9 @@ const DesignedAndBuilt = () => {
             <Text content={description} />
           </div>
           </AnchorLink>
-          {/* <div className="image">
+          <div className="image">
             <NextImage src={image} alt="Built Logo" />
-          </div> */}
+          </div>
          
         </ContentWrapper>
       </Container>
