@@ -16,16 +16,29 @@ const FooterArea = styled.footer`
       width: 250px;
       height: auto;
     }
+    .socials {
+      img {
+        width: 50px;
+        height: auto;
+      }
   }
 `;
 
 export const WidgetArea = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center:
+  align-items; center;
+
   max-width: 1008px;
   width: 100%;
   margin: 0 auto;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  .soc{
+    display: flex;
+    justify-content: center:
+  }
 
   .col {
     width: calc(100% / 3);
@@ -45,6 +58,7 @@ export const WidgetArea = styled.div`
 
     img {
       display: inline-block;
+      justify-content: center;
       height: 41px;
       width: auto;
       margin-bottom: 27px;

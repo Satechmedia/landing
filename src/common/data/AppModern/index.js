@@ -454,9 +454,9 @@ import member1 from 'common/assets/image/appModern/1.png';
 import member2 from 'common/assets/image/appModern/2.png';
 import member3 from 'common/assets/image/appModern/3.png';
 import member4 from 'common/assets/image/appModern/4.png';
-import member5 from 'common/assets/image/appModern/5.png';
+import member7 from 'common/assets/image/appModern/5.png';
 import member6 from 'common/assets/image/appModern/6.png';
-import member7 from 'common/assets/image/appModern/7.png';
+import member5 from 'common/assets/image/appModern/7.png';
 
 export const teamportfolio = {
   title: 'Meet our awesome team members.',
@@ -467,7 +467,7 @@ export const teamportfolio = {
     {
       id: 1,
       img: member1,
-      text: 'ePrincy (Founder)',
+      text: 'ePrincy (Founder/CEO)',
     },
     {
       id: 2,
@@ -483,6 +483,16 @@ export const teamportfolio = {
       id: 4,
       img: member4,
       text: 'NuvieGhaga (Designer/Artist)',
+    },
+    {
+      id: 5,
+      img: member7,
+      text: 'Emmanuel Ewere (Legal Advisor)', 
+    },
+    {
+      id: 6,
+      img: member6,
+      text: 'SH Sunjid (community support)',
     },
   ],
 };
@@ -548,6 +558,9 @@ export const footer = {
     },
   ],
   logo: footerLogo,
+  twitter: chat,
+  youtube: group,
+  discord: github,
   menu: [
     // {
     //   id: 1,

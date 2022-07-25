@@ -17,7 +17,7 @@ import FooterArea, {
 import { footer } from 'common/data/AppModern';
 
 const Footer = () => {
-  const { logo, menu, widgets } = footer;
+  const { logo, twitter, youtube, discord, menu, widgets } = footer;
   const date = new Date();
   const year = date.getFullYear();
 
@@ -25,13 +25,30 @@ const Footer = () => {
     <FooterArea>
       <Container>
         <WidgetArea>
-          {widgets.map((item) => (
-            <Box className="col" key={`footer-widget--key${item.id}`}>
-             <Image src={item.icon?.src} alt={item.title} /> 
-              <Heading as="h3" content={item.title} />
-              <Text content={item.description} />
-            </Box>
-          ))}
+          <div className='soc'>
+          <Logo
+            className="socials"
+            href="https://twitter.com/Seemeo_app"
+            logoSrc={twitter}
+            target="_blank"
+            title="Twitter"
+          />
+
+          <Logo
+            className="socials"
+            href="https://www.youtube.com/channel/UCTIOIG5OAhTw1nZPtCR21mw"
+            logoSrc={youtube}
+            target="_blank"
+            title="Youtube"
+          />
+          <Logo
+            className="socials"
+            href="https://discord.gg/b8JcWTCd2p"
+            logoSrc={discord}
+            target="_blank"
+            title="Discord"
+          />
+           </div>
         </WidgetArea>
         {/* End of footer widgets area */}
         <MenuArea>
