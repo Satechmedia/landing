@@ -42,7 +42,7 @@ const ModalContent = () => (
   <VideoWrapper>
     <iframe
       title="Video"
-      src="https://www.youtube.com/embed/8ME-QAlW6Ww"
+      src="https://www.youtube.com/embed/NSoFM2Oo9jU"
       frameBorder="0"
     />
   </VideoWrapper>
@@ -102,11 +102,12 @@ const Banner = () => {
                 icon={<Icon icon={playCircle} />}
                 iconPosition="left"
                 title="Watch Video"
+                onClick={handleVideoModal}
               />
             </ButtonGroup>
           </Fade>
           <VideoGroup>
-            {/* <NextImage
+            <NextImage
               src={videoBanner1}
               onClick={handleVideoModal}
               alt="Microsoft"
@@ -115,7 +116,7 @@ const Banner = () => {
               src={videoBanner2}
               onClick={handleVideoModal}
               alt="Microsoft"
-            /> */}
+            />
           </VideoGroup>
         </BannerContent>
         <BannerImage>
