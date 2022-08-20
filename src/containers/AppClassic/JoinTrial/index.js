@@ -27,7 +27,7 @@ const JoinTrail = () => {
         </Fade>
         <Fade up delay={300}>
           <ButtonGroup>
-          <a href='https://discord.gg/b8JcWTCd2p' target='_blank'> <Button title="Join the Whitelist Now!!!" /> </a>
+          <a href='https://app.heymint.xyz/seemeo-genesis-pass' target='_blank'> <Button title="Join the Whitelist Now!!!" /> </a>
           <a href='https://drive.google.com/file/d/1G-KITpXOSUyiM93U_LNFuJWMlhNPZEOP/view?usp=sharing' target='_blank'>  <Button title="Litepaper" variant="textButton" /> </a>
           </ButtonGroup>
         </Fade>

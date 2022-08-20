@@ -191,15 +191,15 @@ import featureIcon6 from 'common/assets/image/appClassic/featureIcon-6.svg';
 
 export const features = {
   slogan: 'SEEMEO GENESIS NFT',
-  title: 'BENEFITS',
+  title: 'UTILITY',
   items: [
     {
       id: 1,
       color: '#F55767',
       icon: featureIcon1,
-      title: 'FREE MINT',
+      title: 'Drops',
       description:
-        'Seemeo genesis holders are guaranteed a spot to free mint in the upcoming NFT drops.',
+        'Holding a Genesis NFT will not only get you access to real world utility, but also serve as your key to unlock upcoming opportunities. Starting with SeeCoin which will be claimable by the holders. We have been reaching out to few unique projects for partnership and the response we get is very exciting, we believe the future is very bright for Seemeo NFT community.  Genesis holders will also get a guaranteed spot to mint subsequent NFT drops. The Access card license is for 3 years until we replace or give a drop that requires burn of genesis card. You don’t have anything to worry about. Leave that entire puzzle for us to solve. We will never ask you to buy another card.',
     },
     {
       id: 2,
@@ -207,39 +207,39 @@ export const features = {
       icon: featureIcon2,
       title: 'LOTTERY',
       description:
-        'Holders get a chance to participate in our lottery.',
+        'Lottery is our periodic rewarding program for the holders of Genesis NFT. We shall be taking a periodic snapshot of top NFT holders’ wallet and winners will be drawn through a raffle. In some conditions, where certain wallets are holding equal number of NFTs, We shall make a decision that favors wallets holding higher type of Assess card. Before taking any snapshot, announcement will be published on our website and social media to inform holders about upcoming event.',
     },
     {
       id: 3,
       color: '#D6AB00',
       icon: featureIcon3,
-      title: 'ACCESS',
+      title: 'Ambassadors Program',
       description:
-      'You will get access to an evolving services, features and exclusive events.',
+      'This is a program designed for holders of SEE Coin. We believe that many people will accumulate more Genesis NFT in the secondary market to be able to claim more SEE coin, so we decided to reward them for holding more than everyone. To qualify for this program, a minimum amount of SEE coin is required. The lock vault will be opened periodically and holders who meet the requirements will be able to stake their SEE coin for a period of 4 - 12 weeks with rewards ranging from $50 - $300 weekly for 4 to 12 weeks, For instance; if you stake 1500 SEE for 12 weeks you will earn $300 for 12 weeks. At the end of 12 weeks you have already earned $3600 and you will be able to unlock your Coin. Please Note, the staking requirement and rewards are flexible. It can be less or more. The flexibility depends on the price of SEE Coin and the number of participants. Hence, there will be a total number of participants allowed per week. Every Friday, new participants will be allowed to join the program as some members decide to unstake.',
     },
     {
       id: 4,
       color: '#40975F',
       icon: featureIcon4,
-      title: 'STAKING',
+      title: 'App Features and Events',
       description:
-      'Holders will be given right to stake their NFTs to qualify to be our ambassadors. Ambassadors are our VIPs and Seemeo project’s flag bearers.', 
+      'SeemeoApp will come with various unique tools and verified badge. To get a verified badge on your Seemeo profile you must meet certain condition which includes KYC and business verification if you are a business owner.  Holding a NFT can help to speed up your verification process, get you access to advertise your business in our marketplace, get you access to other exclusive features and exclusive events.', 
     },
     {
       id: 5,
       color: '#5856D6',
       icon: featureIcon5,
-      title: 'PHYSICAL ',
+      title: 'Access to Discount and promo',
       description:
-        'Over time, card holder benefits will expand to real-world items.',
+        'SeemeoApp will be doing partnership with various real world businesses like hotels, clinics, restaurants, clubs, entertainment industries, artists, institutions and many other service providers. These partnerships will get us discounts on products and services, promo and giveaways. Exclusive access to these benefits will be given to the holders of Genesis Pass. Many benefits like discount on products and services, promos, and flash sales will be exclusively accessible by SeeCoin and NFT holders. Hence, SeeCoin and Genesis NFT will be highly valuable.',
     },
     {
       id: 6,
       color: '#E97325',
       icon: featureIcon6,
-      title: 'ACCESS TO LOCATION',
+      title: 'Access to Seemeo Genesis Club (SGC)',
       description:
-        'Holders will get access to partners’ physical locations including hotels, restaurants, clinics, supermarkets and more.',
+        'Holders will be able to access SGC and be able to interact with other holders. SGC is our NFT club on discord where exclusive information sharing and discussion take place.',
     },
   ],
 };
