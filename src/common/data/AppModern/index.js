@@ -228,7 +228,7 @@ export const designAndBuilt = {
   slogan: 'SEEMEO GENESIS NFT',
   title: 'Introduction to Seemeo Genesis.',
   description:
-    'Seemeo Genesis is a collection of 2222 NFT on Ethereum blockchain mintable by early supporters of the ecosystem. As a Seemeo Genesis holder, you will get access to an evolving services and features that keep you on top priority. This also gives you the opportunity to be a shareholder in the project on a long run.',
+    'Seemeo Genesis Pass is a collection of 2222 unique NFT that will grant holders access to unlock great utility and numerous benefits provided by Seemeo Ecosystem. Early supporters will be able to mint in our Genesis Access Pass release. Your pass is your key for accessing the benefits, exciting features and events.',
 };
 
 /* ------------------------------------ */
@@ -334,8 +334,8 @@ export const pricing = {
   monthly: [
     {
       id: 1,
-      title: 'Q2 2022',
-      description: 'The beginning',
+      title: 'PHASE 1',
+      description: 'THE GENESIS',
       suggested: false,
       price: 0,
       features: [
@@ -353,14 +353,30 @@ export const pricing = {
         },
         {
           id: 4,
-          text: 'Strategic Meetings',
+          text: 'Web Development',
+        },
+        {
+          id: 5,
+          text: 'Twitter & Discord comm. building',
+        },
+        {
+          id: 2,
+          text: "Collaborations and AMAs",
+        },
+        {
+          id: 2,
+          text: "Wallet Whitelisting",
+        },
+        {
+          id: 2,
+          text: "Genesis NFT Mint",
         },
       ],
     },
     {
       id: 2,
-      title: 'Q3 2022',
-      description: 'Setting Out',
+      title: 'PHASE 2',
+      description: 'SETTING OUT',
       suggested: true,
       price: 99,
       trail: 14,
@@ -368,11 +384,11 @@ export const pricing = {
       features: [
         {
           id: 1,
-          text: 'Website Development',
+          text: 'SeeCoin launch',
         },
         {
           id: 2,
-          text: "Community Building",
+          text: "Merch drop I",
         },
         {
           id: 3,
@@ -380,7 +396,11 @@ export const pricing = {
         },
         {
           id: 4,
-          text: 'Genesis NFT Mint',
+          text: 'Ambassadors/Staking launch',
+        },
+        {
+          id: 4,
+          text: 'Lottery Time',
         },
       ],
     },
@@ -388,8 +408,8 @@ export const pricing = {
   annualy: [
     {
       id: 1,
-      title: 'Q4 2022',
-      description: 'Product Launch',
+      title: 'PHASE 3',
+      description: 'PRODUCT LAUNCH',
       suggested: true,
       price: 999,
       trail: 14,
@@ -397,7 +417,7 @@ export const pricing = {
       features: [
         {
           id: 1,
-          text: 'Mobile App Development',
+          text: 'Seemeo App launch',
         },
         {
           id: 2,
@@ -405,7 +425,7 @@ export const pricing = {
         },
         {
           id: 3,
-          text: 'Branded physical item launch',
+          text: 'Branded items launch',
         },
         {
           id: 4,
@@ -413,37 +433,25 @@ export const pricing = {
         },
         {
           id: 4,
-          text: 'More roadmap will be announced...',
+          text: 'Merch drop 2',
         },
       ],
     },
-    // {
-    //   id: 2,
-    //   title: 'Enterprise',
-    //   description: 'For Best opportunities',
-    //   suggested: false,
-    //   price: 1299,
-    //   trail: 30,
-    //   trailLink: '#',
-    //   features: [
-    //     {
-    //       id: 1,
-    //       text: 'Drag & Drop Builder',
-    //     },
-    //     {
-    //       id: 2,
-    //       text: "1,000's of Templates",
-    //     },
-    //     {
-    //       id: 3,
-    //       text: 'Blog Support Tools',
-    //     },
-    //     {
-    //       id: 4,
-    //       text: 'eCommerce Store ',
-    //     },
-    //   ],
-    // },
+    {
+      id: 2,
+      title: 'PHASE 4',
+      description: 'THE JOURNEY BEGINS',
+      suggested: false,
+      price: 1299,
+      trail: 30,
+      trailLink: '#',
+      features: [
+        {
+          id: 1,
+          text: 'To be announced in upcomming roadmap v2.0',
+        },
+      ],
+    },
   ],
 };
 
